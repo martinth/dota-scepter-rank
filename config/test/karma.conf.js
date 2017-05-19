@@ -147,7 +147,7 @@ module.exports = function (config) {
       type: 'html',
       subdir: 'html'
     });
-    conf.browsers.push('Chrome');
+    //conf.browsers.push('Chrome');
   }
 
   config.set(conf);
