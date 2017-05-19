@@ -1,0 +1,1 @@
+All images belong to Valve Corporation.

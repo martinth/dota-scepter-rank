@@ -1,0 +1,4 @@
+.ListWrapper {
+    display: flex;
+    flex-wrap: row;
+}

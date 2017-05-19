@@ -1,1 +1,1 @@
-export { Header } from './Header';
+export { HeroScepter } from './HeroScepter';

@@ -1,0 +1,706 @@
+[
+    {
+        "name": "Abaddon",
+        "details": [
+            "Increases Borrowed Time duration from 4 / 5 / 6 to 5 / 6 / 7",
+            "Redirects 50% of all damage dealt to nearby allied heroes to Abaddon when he is within 900 range"
+        ]
+    },
+    {
+        "name": "Alchemist",
+        "details": [
+            "Can cast Aghanim's Scepter to directly grant any allied hero all Aghanim's Scepter bonuses as a permanent buff",
+            "The buff applies both the hero upgrade and the stat upgrade, and the scepter is consumed in the process",
+            "Multiple instances of this buff do not stack, and Alchemist can target himself as well",
+            "This is independent from Chemical Rage and will always be active, has 600 cast range"
+        ]
+    },
+    {
+        "name": "Ancient Apparition",
+        "details": [
+            "Increases Ice Blast duration from 8 / 9 / 10 to 17"
+        ]
+    },
+    {
+        "name": "Anti-Mage",
+        "details": [
+            "Causes Spell Shield to passively block and reflect a targeted spell once every 12 seconds"
+        ]
+    },
+    {
+        "name": "Axe",
+        "details": [
+            "Causes Battle Hunger to reduce enemy total damage output by 30%",
+            "Applies Battle Hunger on enemy heroes within a 700 AoE after a successful Culling Blade"
+        ]
+    },
+    {
+        "name": "Bane",
+        "details": [
+            "Causes Brain Sap to have a 1.5 second cooldown. Pierces Spell Immunity"
+        ]
+    },
+    {
+        "name": "Batrider",
+        "details": [
+            "Flaming Lasso grabs a secondary target within 400 range nearest to the primary target, with the secondary target tethered to the first",
+            "Flaming Lasso now deals 100 damage per second"
+        ]
+    },
+    {
+        "name": "Beastmaster",
+        "details": [
+            "Increases Primal Roar cast range from 600 to 950",
+            "Decreases cooldown from 80 / 75 / 70 to 45"
+        ]
+    },
+    {
+        "name": "Bloodseeker",
+        "details": [
+            "Grants 2 charges to Rupture with a 40 second replenish time per charge"
+        ]
+    },
+    {
+        "name": "Bounty Hunter",
+        "details": [
+            "Allows Shuriken Toss to bounce twice on each hero (bounces on everyone once, then bounces through each one again)",
+            "Increases ministun duration from 0.1 to 0.75"
+        ]
+    },
+    {
+        "name": "Brewmaster",
+        "details": [
+            "Grants Earth Thunder Clap, Storm Drunken Haze, and Fire Drunken Brawler to Primal Spirits",
+            "The skills are applied at Brewmaster's current level, and the cooldowns are independent of the original Brewmaster"
+        ]
+    },
+    {
+        "name": "Bristleback",
+        "details": [
+            "Viscous Nasal Goo is no longer targeted, and instead it applies Goo to all enemies around in a 750 radius when cast"
+        ]
+    },
+    {
+        "name": "Centaur Warrunner",
+        "details": [
+            "Reduces all incoming damage by 40% and allows allies to run through obstructions",
+            "Can run through trees, cliffs, etc. Destroys trees."
+        ]
+    },
+    {
+        "name": "Chaos Knight",
+        "details": [
+            "Reduces cooldown by 20 seconds and allows Phantoms to be cast on an allied hero",
+            "1200 Cast Range"
+        ]
+    },
+    {
+        "name": "Chen",
+        "details": [
+            "Allows Holy Persuasion to target Ancient Creeps",
+            "Increases the maximum number of controllable ancients by 1 / 2 / 3"
+        ]
+    },
+    {
+        "name": "Clockwerk",
+        "details": [
+            "Decreases Hookshot cooldown from 70 / 55 / 40 to 12"
+        ]
+    },
+    {
+        "name": "Crystal Maiden",
+        "details": [
+            "Applies Frostbite to any unit that has been standing in the Freezing Field for over 2.5 seconds"
+        ]
+    },
+    {
+        "name": "Dark Seer",
+        "details": [
+            "Increases Wall of Replica illusion damage from 60% / 75% / 90% to 100% / 120% / 140%"
+        ]
+    },
+    {
+        "name": "Dazzle",
+        "details": [
+            "Causes Shallow Grave to be a 450 AoE spell"
+        ]
+    },
+    {
+        "name": "Disruptor",
+        "details": [
+            "Increases Static Storm duration from 5 to 7",
+            "Applies Mute"
+        ]
+    },
+    {
+        "name": "Doom",
+        "details": [
+            "Increases Doom duration from 15 to 16",
+            "Doom spell duration doesn't count down while the target is within 900 range of Doom  Applies Break to the target"
+        ]
+    },
+    {
+        "name": "Drow Ranger",
+        "details": [
+            "Marksmanship now causes her attacks to splinter on the target and split into two arrows affecting two random units in a 375 radius",
+            "The splintered arrows deal 50% damage each, the primary target still takes full damage",
+            "The split arrows act as normal attacks, carrying all attack modifiers"
+        ]
+    },
+    {
+        "name": "Earth Spirit",
+        "details": [
+            "Grants the Enchant Remnant ability",
+            "Allows Earth Spirit to convert an enemy hero into a Stone Remnant for 3 seconds"
+        ]
+    },
+    {
+        "name": "Earthshaker",
+        "details": [
+            "Enchant Totem becomes a 900 range ground target ability",
+            "Causes you to jump in the air and land at the target spot, casting enchant totem there"
+        ]
+    },
+    {
+        "name": "Elder Titan",
+        "details": [
+            "Units that are pulled in by Earth Splitter will be disarmed in addition to being slowed",
+            "Slow/disarm duration increased from 3 / 4 / 5 to 4 / 5 / 6"
+        ]
+    },
+    {
+        "name": "Enchantress",
+        "details": [
+            "Increases Impetus attack range from 550 to 740"
+        ]
+    },
+    {
+        "name": "Enigma",
+        "details": [
+            "Adds the current level of Midnight Pulse damage to Black Hole",
+            "Stacks with Midnight Pulse"
+        ]
+    },
+    {
+        "name": "Faceless Void",
+        "details": [
+            "Decreases  Chronosphere cooldown from 120 / 110 / 100 to 60"
+        ]
+    },
+    {
+        "name": "Gyrocopter",
+        "details": [
+            "Adds a Side Gunner, which automatically fires an attack at random enemy units within 600 range every 1.1 seconds"
+        ]
+    },
+    {
+        "name": "Huskar",
+        "details": [
+            "Increases Life Break damage from 34% / 38% / 42% to 65% of HP",
+            "Decreases cooldown from 12 to 4"
+        ]
+    },
+    {
+        "name": "Invoker",
+        "details": [
+            "Adds one level to the stats provided by Quas, Wex, and Exort on all Invoked spells",
+            "Decreases cooldown from 6 to 2",
+            "Decreases mana cost from 60 to 0"
+        ]
+    },
+    {
+        "name": "Jakiro",
+        "details": [
+            "Increases Macropyre distance from 1400 to 1800",
+            "Increases damage per second from 100 / 140 / 180 to 125 / 175 / 225",
+            "Increases duration from 10 to 30"
+        ]
+    },
+    {
+        "name": "Juggernaut",
+        "details": [
+            "Increases number of Omnislash attacks from 3 / 6 / 9 to 6 / 9 / 12",
+            "Decreases cooldown from 130 / 120 / 110 to 70"
+        ]
+    },
+    {
+        "name": "Keeper of the Light",
+        "details": [
+            "Increases Spirit Form duration from 40 to Permanent (Passive)",
+            "Grants Keeper of the Light flying vision during the day",
+            "During the day, Illuminate heals allies for 100% of the damage value"
+        ]
+    },
+    {
+        "name": "Kunkka",
+        "details": [
+            "Ghostship now drags enemies within a 200 radius of it towards the crash site",
+            "It now starts from where Kunkka is, rather than behind him, landing in the same position it normally would have"
+        ]
+    },
+    {
+        "name": "Legion Commander",
+        "details": [
+            "Increases Duel duration from 4 / 4.75 / 5.5 to 6 / 7 / 8",
+            "Legion Commander and the duel target gain 100% damage resistance to non-duelists",
+            "Grants Spell Immunity to Legion Commander during Duel"
+        ]
+    },
+    {
+        "name": "Leshrac",
+        "details": [
+            "While Pulse Nova is active, every 1.75 seconds Lightning Storm will hit one random unit within 750 AoE (Prioritizes heroes)"
+        ]
+    },
+    {
+        "name": "Lich",
+        "details": [
+            "Increases damage from 280 / 370 / 460 to 370 / 460 / 550",
+            "Increases cast range from 750 to 850  Increases bounces from 10 to Unlimited",
+            "Increases movement slow from 30% to 50% and attack slow from 30 to 50"
+        ]
+    },
+    {
+        "name": "Lifestealer",
+        "details": [
+            "Grants the Assimilate ability",
+            "Allows Lifestealer to target an allied hero and swallow them to hide inside of Lifestealer",
+            "Any healing Lifestealer receives is shared with the assimilated hero",
+            "The assimilated hero can release itself to deal 300 damage to enemies in a 700 area of effect"
+        ]
+    },
+    {
+        "name": "Lina",
+        "details": [
+            "Changes damage type from Magical to Pure",
+            "Pierces Spell Immunity"
+        ]
+    },
+    {
+        "name": "Lion",
+        "details": [
+            "Increases damage from 600 / 725 / 850 to 725 / 875 / 1025",
+            "Decreases mana cost from 200 / 420 / 650 to 200 / 420 / 625",
+            "Decreases cooldown from 160 / 100 / 40 to 100 / 60 / 20",
+            "Hits all enemy units within 325 radius of the primary target"
+        ]
+    },
+    {
+        "name": "Lone Druid",
+        "details": [
+            "Allows the Spirit Bear to attack at any range from Lone Druid",
+            "Prevents Spirit Bear from dying if Lone Druid dies"
+        ]
+    },
+    {
+        "name": "Luna",
+        "details": [
+            "Increases number of Lucent Beams from 5 / 8 / 11 to 6 / 12 / 18",
+            "Increases maximum number of hits per target from 5 to Unlimited",
+            "Decreases beam interval from 0.6 to 0.3",
+            "Decreases duration from 2.4 / 4.2 / 6 to 1.8 / 3.6 / 5.4",
+            "Allows Eclipse to be cast on an ally or area within 2500 range, and grants 675 ground vision of the area"
+        ]
+    },
+    {
+        "name": "Magnus",
+        "details": [
+            "Shockwave comes back, hitting units a second time and applying a 60% slow for 2 seconds",
+            "Distance and travel speed are increased by 50%",
+            "Return wave deals half damage to creeps"
+        ]
+    },
+    {
+        "name": "Medusa",
+        "details": [
+            "Causes Mystic Snake to turn enemies into stone for 1 second",
+            "Increases by 0.2 seconds per bounce"
+        ]
+    },
+    {
+        "name": "Meepo",
+        "details": [
+            "Increases number of Meepos from 2 / 3 / 4 to 3 / 4 / 5",
+            "Always provides an extra Meepo even if Divided We Stand is not leveled"
+        ]
+    },
+    {
+        "name": "Mirana",
+        "details": [
+            "Passively triggers Starstorm every 9 seconds",
+            "If there are no units to affect, the spell waits until there is a nearby enemy"
+        ]
+    },
+    {
+        "name": "Morphling",
+        "details": [
+            "Grants the Hybrid ability",
+            "Allows Morphling to target an ally, creating a visually different a hybrid illusion which can be seen by enemies",
+            "This hybrid illusion can cast non-ultimate abilities and has Morphling's original attributes"
+        ]
+    },
+    {
+        "name": "Naga Siren",
+        "details": [
+            "Song of the Siren Regenerates you and nearby allies by 10% of maximum HP per second for the duration"
+        ]
+    },
+    {
+        "name": "Nature's Prophet",
+        "details": [
+            "Increases Wrath of Nature initial damage from 110 / 140 / 170 to 135 / 170 / 205",
+            "Spawns a Nature's Call treant whenever a unit dies within 4 seconds of being hit by Wrath of Nature",
+            "Killing a hero will spawn a Greater Treant with 300% the damage and health of a normal one"
+        ]
+    },
+    {
+        "name": "Necrophos",
+        "details": [
+            "Decreases Reaper's Scythe cooldown from 100 / 85 / 70 to 55 / 40 / 25"
+        ]
+    },
+    {
+        "name": "Night Stalker",
+        "details": [
+            "Grants Night Stalker flying vision at night",
+            "This is independent from Darkness and will always be active at night"
+        ]
+    },
+    {
+        "name": "Nyx Assassin",
+        "details": [
+            "Grants the Burrow ability",
+            "While burrowed Nyx Assassin has 40% damage resistance and regenerates 1.5% of maximum HP/Mana per second",
+            "His spells also receive the following bonuses while burrowed:",
+            "Mana Burn and Impale have 75% increased cast range",
+            "Impale cooldown is reduced from 13 to 7",
+            "Spiked Carapace instantly stuns any enemy units within a 300 area of effect"
+        ]
+    },
+    {
+        "name": "Ogre Magi",
+        "details": [
+            "Grants the Unrefined Fireblast ability",
+            "Costs 60% of current mana, so Ogre Magi always has enough mana to cast this spell even at 0 mana"
+        ]
+    },
+    {
+        "name": "Omniknight",
+        "details": [
+            "Increases Guardian Angel duration from 6 / 7 / 8 to 8 / 9 / 10",
+            "Increases Guardian Angelradius from 600 to global",
+            "Guardian Angel also affects buildings"
+        ]
+    },
+    {
+        "name": "Oracle",
+        "details": [
+            "Reduces Purifying Flames cooldown from 2.25 seconds to 1 second",
+            "Lowers cast point from 0.3 to 0.1"
+        ]
+    },
+    {
+        "name": "Outworld Devourer",
+        "details": [
+            "Grants 2 charges to Astral Imprisonment and increases cast range by 300",
+            "Damage areas stack",
+            "Replenish Time: 12"
+        ]
+    },
+    {
+        "name": "Phantom Lancer",
+        "details": [
+            "Causes Spirit Lance to bounce on nearby enemies",
+            "Bounce Range: 400",
+            "Bounce Cap: 5"
+        ]
+    },
+    {
+        "name": "Phoenix",
+        "details": [
+            "Increases attacks needed to destroy the Supernova from 5 / 8 / 11 to 7 / 10 / 13",
+            "Allows Supernova to be cast on an allied hero, bringing both into the Sun to be reborn together",
+            "Has a 500 cast range and if the Sun is destroyed, both heroes will die"
+        ]
+    },
+    {
+        "name": "Puck",
+        "details": [
+            "Increases Dream Coil break damage from 100 / 150 / 200 to 200 / 250 / 300",
+            "Increases Dream Coil break stun duration from 1.5 / 2.25 / 3 to 1.5 / 3 / 4.5",
+            "Increases Dream Coil duration from 6 to 8",
+            "Stun pierces Spell Immunity"
+        ]
+    },
+    {
+        "name": "Pudge",
+        "details": [
+            "Reduces  Meat Hook cooldown from 14 / 13 / 12 / 11 to 4",
+            "Increases damage from 90 / 180 / 270 / 360 to 180 / 270 / 360 / 450"
+        ]
+    },
+    {
+        "name": "Pugna",
+        "details": [
+            "Increases Life Drain health/mana drain per second from 150 / 200 / 250 to 180 / 240 / 300",
+            "Decreases cooldown from 22 to 0"
+        ]
+    },
+    {
+        "name": "Queen of Pain",
+        "details": [
+            "Increases Sonic Wave damage from 290 / 380 / 470 to 325 / 440 / 555",
+            "Decreases cooldown from 135 to 40"
+        ]
+    },
+    {
+        "name": "Razor",
+        "details": [
+            "Decreases time between strikes of Eye of the Storm from 0.7 / 0.6 / 0.5 to 0.6 / 0.5 / 0.4",
+            "Allows Eye of the Storm to damage buildings"
+        ]
+    },
+    {
+        "name": "Riki",
+        "details": [
+            "Allows you to target an allied hero, hiding inside them for the duration",
+            "The attack radius follows the allied hero",
+            "1000 Cast Range",
+            "Increases ultimate duration by 4 seconds"
+        ]
+    },
+    {
+        "name": "Rubick",
+        "details": [
+            "Stolen ultimates will always have the Aghanim's Scepter upgrade",
+            "Reduces cooldown from 20 / 18 / 16 to 2",
+            "Increases cast range from 1000 to 1400"
+        ]
+    },
+    {
+        "name": "Sand King",
+        "details": [
+            "Increases Burrowstrike cast range from 350 / 450 / 550 / 650 to 700 / 900 / 1100 / 1300",
+            "Applies Caustic Finale poison to heroes hit by Burrowstrike"
+        ]
+    },
+    {
+        "name": "Shadow Demon",
+        "details": [
+            "Replaces Demonic Purge 50 second cooldown with 3 charges that each have a 40 second replenish time",
+            "Applies Break to the target"
+        ]
+    },
+    {
+        "name": "Shadow Fiend",
+        "details": [
+            "Increases Necromastery max souls from 15 / 22 / 29 / 36 to 22 / 30 / 38 / 46",
+            "Requiem of Souls waves now return back to Shadow Fiend dealing 40% damage on the way back",
+            "All of the damage the Requiem does to heroes on its way back heals Shadow Fiend"
+        ]
+    },
+    {
+        "name": "Shadow Shaman",
+        "details": [
+            "Causes Serpent Wards to have a split shot, attacking two units each for full damage",
+            "Increases Serpent Ward attack range from 600 to 825"
+        ]
+    },
+    {
+        "name": "Silencer",
+        "details": [
+            "Glaives of Wisdom now Pierce Spell Immunity and deal 100% more damage against Silenced units"
+        ]
+    },
+    {
+        "name": "Skywrath Mage",
+        "details": [
+            "Anytime Skywrath Mage casts an ability, a different random nearby target within 700 range will be hit with the same ability (heroes prioritized)"
+        ]
+    },
+    {
+        "name": "Slark",
+        "details": [
+            "Causes Shadow Dance active to be a 325 radius, hiding allied heroes underneath it",
+            "Reduces ultimate cooldown from 60 to 30"
+        ]
+    },
+    {
+        "name": "Sniper",
+        "details": [
+            "Assassinate becomes a ground targeted spell with a 400 radius which locks onto the targets in the area upon cast",
+            "Damage changes to a physical 2.8× critical strike based on Sniper's attack",
+            "Procs headshot on hit"
+        ]
+    },
+    {
+        "name": "Spirit Breaker",
+        "details": [
+            "Increases Nether Strike cast range from 700 to 850  Decreases cooldown from 60 to 20",
+            "Applies the current level of Greater Bash to all units within a 250 radius"
+        ]
+    },
+    {
+        "name": "Storm Spirit",
+        "details": [
+            "Causes Electric Vortex to be a 475 radius ability around Storm Spirit",
+            "Requires vision over the units to affect them"
+        ]
+    },
+    {
+        "name": "Sven",
+        "details": [
+            "God's Strength grants an allied aura within a 900 radius",
+            "Aura grants allies 75% / 100% / 125% bonus base damage"
+        ]
+    },
+    {
+        "name": "Techies",
+        "details": [
+            "Increases Remote Mines damage from 300 / 450 / 600 to 450 / 600 / 750",
+            "Increases cast range from 500 to 700",
+            "Minefield Sign makes all Proximity Mines, Stasis Traps and Remote Mines within a 125 radius immune to True Sight"
+        ]
+    },
+    {
+        "name": "Tidehunter",
+        "details": [
+            "Causes Gush to become a ground targeted wave ability that travels for 1800 range, hitting enemies in a 240 radius of the wave"
+        ]
+    },
+    {
+        "name": "Timbersaw",
+        "details": [
+            "Grants Timbersaw a second Chakram"
+        ]
+    },
+    {
+        "name": "Tinker",
+        "details": [
+            "Laser refracts to visible enemy heroes within a 650 bounce range",
+            "Increases Heat-Seeking Missile's number of targets from 2 to 4"
+        ]
+    },
+    {
+        "name": "Tiny",
+        "details": [
+            "Increases damage on tossed units from 35% / 50% / 65% to 50% / 65% / 80%",
+            "Increases Tiny's attack range from 128 to 235",
+            "Adds a passive 50% cleave within 400 range",
+            "Deals 175% damage to buildings"
+        ]
+    },
+    {
+        "name": "Treant Protector",
+        "details": [
+            "Grants the Eyes In The Forest ability",
+            "Allows Treant Protector to enchant trees with flying vision and deal a damaging Overgrowth within their sight whenever Overgrowth is cast"
+        ]
+    },
+    {
+        "name": "Tusk",
+        "details": [
+            "Grants the Walrus Kick ability",
+            "Kicks the target back 1400 units and slows by 40% for 4 seconds  Deals 350 magical damage"
+        ]
+    },
+    {
+        "name": "Underlord",
+        "details": [
+            "Atrophy Aura's bonus damage is now granted to nearby allied heroes for half of the bonuses",
+            "Increases bonus damage duration by 40 seconds"
+        ]
+    },
+    {
+        "name": "Undying",
+        "details": [
+            "Increases Decay's strength steal from 4 to 10"
+        ]
+    },
+    {
+        "name": "Ursa",
+        "details": [
+            "Enrage can now be cast while disabled",
+            "Reduces Enrage cooldown from 50 / 40 / 30 to 30 / 24 / 18"
+        ]
+    },
+    {
+        "name": "Vengeful Spirit",
+        "details": [
+            "Allows Vengeful Spirit to target non-hero units with Nether Swap",
+            "Decreases cooldown from 45 to 10",
+            "On death a Vengeance Illusion spawns that can use all of Vengeful Spirit's abilities, but not items"
+        ]
+    },
+    {
+        "name": "Venomancer",
+        "details": [
+            "Increases Poison Nova damage per second from 30 / 55 / 80 to 60 / 85 / 110",
+            "Decreases cooldown from 140 / 120 / 100 to 140 / 120 / 60"
+        ]
+    },
+    {
+        "name": "Viper",
+        "details": [
+            "Increases Viper Strike cast range from 500 to 900",
+            "Decreases cooldown from 80 / 50 / 30 to 10",
+            "Decreases mana cost from 125 / 175 / 250 to 125"
+        ]
+    },
+    {
+        "name": "Visage",
+        "details": [
+            "Increases number of familiars summoned from 2 to 3"
+        ]
+    },
+    {
+        "name": "Warlock",
+        "details": [
+            "Increases the number of golems summoned from 1 to 2",
+            "Each golem's health and damage is reduced to 75%",
+            "Each golem's gold bounty is reduced to 50%"
+        ]
+    },
+    {
+        "name": "Weaver",
+        "details": [
+            "Time Lapse cooldown reduced from 60 / 50 / 40 to 16",
+            "Time Lapse can now target allied heroes within 1000 range"
+        ]
+    },
+    {
+        "name": "Windranger",
+        "details": [
+            "Auto attack damage reduction for Focus Fire decreased from 50% / 40% / 30% to 30% / 15% / 0%",
+            "Decreases cooldown from 60 to 15"
+        ]
+    },
+    {
+        "name": "Winter Wyvern",
+        "details": [
+            "Causes Arctic Burn to be a toggle that drains 40 mana per second",
+            "No longer has limit on number of attacks per target"
+        ]
+    },
+    {
+        "name": "Witch Doctor",
+        "details": [
+            "Death Ward's attacks bounce 4 times",
+            "Death Ward now has True Strike"
+        ]
+    },
+    {
+        "name": "Wraith King",
+        "details": [
+            "Allies who are slain within a 1200 radius of Wraith King become Wraiths for 7 seconds, delaying their death",
+            "They can continue attacking, casting, and using items until the duration ends and the hero dies"
+        ]
+    },
+    {
+        "name": "Zeus",
+        "details": [
+            "Grants the Nimbus ability",
+            "Creates a storm cloud anywhere on the map that automatically casts Lightning Bolt on the closest enemy within range"
+        ]
+    }
+]
