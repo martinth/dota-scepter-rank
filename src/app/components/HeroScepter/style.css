@@ -1,3 +1,5 @@
 .HeroScepter {
-  width: 128px;
+  width: 15em;
+
+  border: 1px solid blue;
 }
