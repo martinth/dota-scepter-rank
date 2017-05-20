@@ -5,14 +5,16 @@ const style = require('./style.css');
 
 interface IProps {
   scepter: IHeroScepter;
+  onClick?: () => void;
+  className?: string;
 }
 
 class HeroScepter extends React.Component<IProps, void> {
   public render() {
-    const { scepter } = this.props;
+    const { scepter, onClick, className } = this.props;
 
     return (
-      <div className={`${style.HeroScepter} card`}>
+      <div className={`card ${style.HeroScepter} ${className}`} onClick={onClick}>
         <img className="card-img-top" src={require(`./hero-images/${scepter.id}.png`)} alt={scepter.heroName} />
         <div className="card-block">
           <h4 className="card-title">{scepter.heroName}</h4>
