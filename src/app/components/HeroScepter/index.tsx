@@ -12,12 +12,14 @@ class HeroScepter extends React.Component<IProps, void> {
     const { scepter } = this.props;
 
     return (
-      <div className={style.HeroScepter}>
-        <h3>{scepter.heroName}</h3>
-        <img alt={scepter.heroName} src={require(`./hero-images/${scepter.id}.png`)} />
-        <ul>
-          {scepter.details.map((detail, idx) => <li key={idx}>{detail}</li>)}
-        </ul>
+      <div className={`${style.HeroScepter} card`}>
+        <img className="card-img-top" src={require(`./hero-images/${scepter.id}.png`)} alt={scepter.heroName} />
+        <div className="card-block">
+          <h4 className="card-title">{scepter.heroName}</h4>
+          <ul>
+            {scepter.details.map((detail, idx) => <li key={idx}>{detail}</li>)}
+          </ul>
+        </div>
       </div>
     );
   }

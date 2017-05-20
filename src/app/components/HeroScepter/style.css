@@ -1,5 +1,7 @@
 .HeroScepter {
-  width: 15em;
+  max-width: 18rem;
+  height: 100%;
 
-  border: 1px solid blue;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,4 +1,7 @@
-.Wrapper {
-  display: flex;
-  flex-wrap: row;
+.SelectIndicator {
+  text-align: center;  
+}
+
+.SelectIndicator__row {
+  margin-top: 50%;
 }

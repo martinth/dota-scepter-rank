@@ -44,16 +44,23 @@ class ScepterCompare extends React.Component<IProps, any> {
     const {compare, vote} = this.props;
 
     return (
-      <div className={style.Wrapper}>
-        <div>
-          <HeroScepter key={compare.scepterA.id} scepter={compare.scepterA} />
-          <button className="btn btn-primary" onClick={vote.bind(null, compare.scepterA.id)}>Better</button>
+      <div>
+        <div className="row align-items-center hidden-sm-up">
+          <div className="col-sm-12">Select which one is better</div>
         </div>
-        <div>
-          <HeroScepter key={compare.scepterB.id} scepter={compare.scepterB} />
-          <button className="btn btn-primary" onClick={vote.bind(null, compare.scepterB.id)}>Better</button>
+        <div className={`row`}>
+          <div className="col-sm-5" onClick={vote.bind(null, compare.scepterA.id)}>
+            <HeroScepter key={compare.scepterA.id} scepter={compare.scepterA} />
+          </div>
+          <div className={`${style.SelectIndicator} col-sm-2 hidden-xs-down`}>
+            <div className={`${style.SelectIndicator__row} row align-items-center`}>
+              <div className="col">Select which one is better</div>
+            </div>
+          </div>
+          <div className="col-sm-5" onClick={vote.bind(null, compare.scepterB.id)}>
+            <HeroScepter key={compare.scepterB.id} scepter={compare.scepterB} />
+          </div>
         </div>
-        
       </div>
     );
   }
