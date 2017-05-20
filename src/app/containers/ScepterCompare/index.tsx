@@ -3,6 +3,7 @@ import { voteCompare, IVoteCompareAction } from 'modules/scepters';
 import { IHeroScepter, ScepterId } from 'models/scepters';
 import { IStore } from 'redux/Istore';
 import { HeroScepter } from 'components/HeroScepter';
+import { LeaderBoard } from 'containers';
 import * as _ from 'lodash';
 const { connect } = require('react-redux');
 
@@ -52,6 +53,7 @@ class ScepterCompare extends React.Component<IProps, any> {
             scepter={compare.scepterB}
             onClick={vote.bind(null, compare.scepterB.id, compare.scepterA.id)} />
         </div>
+        <LeaderBoard />
       </div>
     );
   }

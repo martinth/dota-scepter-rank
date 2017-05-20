@@ -1,3 +1,3 @@
 export interface IRatings {
-  [scepterId: string]: any;
+  [scepterId: string]: number;
 }
