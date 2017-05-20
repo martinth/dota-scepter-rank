@@ -3,6 +3,7 @@
     "tslint:latest",
     "tslint-react"
   ],
+  "defaultSeverity": "error",
   "rules": {
     "indent": [
       true,
@@ -14,7 +15,7 @@
       "jsx-double"
     ],
     "no-var-requires": false,
-    "ordered-imports": false,
+    "ordered-imports": [false],
     "member-ordering": [
       false
     ],

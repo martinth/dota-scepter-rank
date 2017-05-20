@@ -1,31 +1,68 @@
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
-  "version": "0.1.1",
+  "version": "0.1.0",
   "command": "npm",
   "isShellCommand": true,
   "showOutput": "always",
   "suppressTaskName": true,
-  "tasks": [{
+  "tasks": [
+    {
       "isBuildCommand": true,
       "taskName": "run",
-      "args": ["start"]
+      "args": [
+        "start"
+      ],
+      "problemMatcher": [
+        {
+          "owner": "webpack",
+          "fileLocation": [
+            "relative",
+            "${workspaceRoot}"
+          ],
+          "pattern": [
+            {
+              "regexp": "ERROR in \\[at-loader\\] (.*):(\\d+):(\\d+)",
+              "file": 1,
+              "line": 2,
+              "column": 3
+            }, {
+              "regexp": "TS\\d+: (.*)",
+              "message": 0
+            }
+          ],
+          "watching": {
+            "activeOnStart": true,
+            "beginsPattern": "\\[at-loader\\] Checking started in a separate process\\.\\.\\.",
+            "endsPattern": "\\[at-loader\\] Ok, .* sec\\."
+          }
+        }
+      ]
     },
     {
       "taskName": "production",
-      "args": ["build:prod"]
+      "args": [
+        "build:prod"
+      ]
     },
     {
       "taskName": "install",
-      "args": ["install"]
+      "args": [
+        "install"
+      ]
     },
     {
       "taskName": "update",
-      "args": ["update"]
+      "args": [
+        "update"
+      ]
     },
     {
       "taskName": "test",
-      "args": ["run", "test"]
+      "args": [
+        "run",
+        "test"
+      ]
     }
   ]
 }
