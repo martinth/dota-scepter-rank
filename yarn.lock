@@ -1943,6 +1943,10 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
+elo-rank@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/elo-rank/-/elo-rank-1.0.0.tgz#424da60681a64c0e71f2aa462f5b7a1c602e6bb2"
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"

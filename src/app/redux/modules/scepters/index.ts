@@ -1,4 +1,4 @@
-import { IScepters, IHeroScepter } from 'models/scepters';
+import { IScepters, IHeroScepter, ScepterId } from 'models/scepters';
 import * as _ from 'lodash';
 
 /**
@@ -58,14 +58,15 @@ export function sceptersReducer(state?: IScepters, action?: IChooseNewCompareAct
 
 /** Action Types */
 const CHOOSE_NEW_COMPARE: string = 'scepterCompare/CHOOSE_NEW_COMPARE';
-const VOTE_COMPARE: string = 'scepterCompare/VOTE_COMPARE';
+export const VOTE_COMPARE: string = 'scepterCompare/VOTE_COMPARE';
 
 /** Actions */
 // tslint:disable-next-line:no-empty-interface
 export interface IChooseNewCompareAction extends Redux.Action {};
 export interface IVoteCompareAction extends Redux.Action {
     payload: {
-        id: string;
+        winner: ScepterId;
+        looser: ScepterId;
     };
 }
 
@@ -76,11 +77,12 @@ export function chooseNewCompare(): IChooseNewCompareAction {
   };
 }
 
-export function voteCompare(scepterId: string): IVoteCompareAction {
+export function voteCompare(winner: ScepterId, looser: ScepterId): IVoteCompareAction {
   return {
     type: VOTE_COMPARE,
     payload: {
-        id: scepterId,
+        winner,
+        looser,
     },
   };
 }

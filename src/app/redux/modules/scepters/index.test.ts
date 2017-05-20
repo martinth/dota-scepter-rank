@@ -33,7 +33,7 @@ describe('sceptersReducer', () => {
             const initalState = scepters.sceptersReducer();
             const resultState = scepters.sceptersReducer(
                 initalState,
-                scepters.voteCompare(initalState.currentCompare.scepterA),
+                scepters.voteCompare(initalState.currentCompare.scepterA, initalState.currentCompare.scepterB),
             );
             const previousCompare = [initalState.currentCompare.scepterA, initalState.currentCompare.scepterB];
             expect(resultState.currentCompare.scepterA).to.not.be.oneOf(previousCompare);

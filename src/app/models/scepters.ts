@@ -1,5 +1,5 @@
 /** Internal types */
-type ScepterId = string;
+export type ScepterId = string;
 
 export interface IHeroScepter {
     id: ScepterId;

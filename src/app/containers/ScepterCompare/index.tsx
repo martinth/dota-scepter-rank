@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { voteCompare, IVoteCompareAction } from 'modules/scepters';
-import { IHeroScepter } from 'models/scepters';
+import { IHeroScepter, ScepterId } from 'models/scepters';
 import { IStore } from 'redux/Istore';
 import { HeroScepter } from 'components/HeroScepter';
 import * as _ from 'lodash';
@@ -26,7 +26,7 @@ function currentSelect(state: IStore): Partial<IProps> {
 @connect(
   (state) => ({ compare: currentSelect(state) }),
   (dispatch) => ({
-    vote: (id: string) => dispatch(voteCompare(id)),
+    vote: (winner: ScepterId, looser: ScepterId) => dispatch(voteCompare(winner, looser)),
   }),
 )
 class ScepterCompare extends React.Component<IProps, any> {
@@ -42,7 +42,7 @@ class ScepterCompare extends React.Component<IProps, any> {
         <div className={`row`}>
           <HeroScepter className={`${style.VoteCard} col-sm-5`}
             scepter={compare.scepterA}
-            onClick={vote.bind(null, compare.scepterA.id)} />
+            onClick={vote.bind(null, compare.scepterA.id, compare.scepterB.id)} />
           <div className={`${style.SelectIndicator} col-sm-2 hidden-xs-down`}>
             <div className={`${style.SelectIndicator__row} row align-items-center`}>
               <div className="col">Select which one is better</div>
@@ -50,7 +50,7 @@ class ScepterCompare extends React.Component<IProps, any> {
           </div>
           <HeroScepter className={`${style.VoteCard} col-sm-5`}
             scepter={compare.scepterB}
-            onClick={vote.bind(null, compare.scepterB.id)} />
+            onClick={vote.bind(null, compare.scepterB.id, compare.scepterA.id)} />
         </div>
       </div>
     );

@@ -3,4 +3,3 @@ export { Html } from './Html';
 export { App } from './App';
 export { ScepterList } from './ScepterList';
 export { ScepterCompare } from './ScepterCompare';
-export { Home } from './Home';
