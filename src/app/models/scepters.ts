@@ -1,9 +1,19 @@
-export interface IHeroScepters {
-    [id: string]: IHeroScepter;
-}
+/** Internal types */
+type ScepterId = string;
 
 export interface IHeroScepter {
-    id: string;
+    id: ScepterId;
     heroName: string;
     details: string[];
+}
+
+interface IScepterCompare {
+  scepterA: ScepterId;
+  scepterB: ScepterId;
+}
+
+/** State */
+export interface IScepters {
+    allScepters: IHeroScepter[];
+    currentCompare?: IScepterCompare;
 }

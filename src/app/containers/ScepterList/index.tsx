@@ -1,16 +1,16 @@
 import * as React from 'react';
-import { IHeroScepters } from 'models/scepters';
+import { IHeroScepter } from 'models/scepters';
 import { IStore } from 'redux/Istore';
 import { HeroScepter } from 'components/HeroScepter';
 const { connect } = require('react-redux');
 const style = require('./style.css');
 
 interface IProps {
-  scepters: IHeroScepters;
+  scepters: IHeroScepter[];
 }
 
 @connect(
-  (state: IStore): IProps => ({ scepters: state.scepters }),
+  (state: IStore): IProps => ({ scepters: state.scepters.allScepters }),
 )
 class ScepterList extends React.Component<IProps, any> {
 

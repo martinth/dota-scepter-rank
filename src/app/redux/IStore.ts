@@ -1,5 +1,5 @@
-import { IHeroScepters } from 'models/scepters';
+import { IScepters } from 'models/scepters';
 
 export interface IStore {
-  scepters: IHeroScepters;
+  scepters: IScepters;
 };
