@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { IndexRoute, Route } from 'react-router';
-import { App, ScepterList, ScepterCompare, Home } from 'containers';
+import { App, ScepterList, ScepterCompare } from 'containers';
+import { Home } from 'components';
 
 export default (
   <Route path="/" component={App}>
