@@ -1,0 +1,39 @@
+$nav-height: 2.8em;
+
+.nav {
+  background-color: #03161c;
+  height: $nav-height;
+  
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    display: flex;
+    
+    &__icon {
+      display: block;
+      list-style-type: none;
+      img {
+        height: $nav-height;  
+      }
+      margin-right: $default-padding;
+   
+    }
+    
+    &__item {
+      display: block;
+      list-style-type: none;
+      font-weight: 600;
+      font-size: 1.6em;
+      padding: $default-padding;
+           
+      a {
+        color: $font-white;
+        text-decoration: none;
+        &:hover {
+          color: $font-light;
+        }
+      }
+    }
+  }
+}
