@@ -29,6 +29,10 @@
   
   &__image {
     text-align: center;
-    padding: $default-padding 0;
+    padding: 0;
+
+    img {
+      width: 100%;
+    }
   }
 }
