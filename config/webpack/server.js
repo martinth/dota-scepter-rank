@@ -3,6 +3,8 @@ var fs = require('fs');
 var webpack = require('webpack');
 var postcssAssets = require('postcss-assets');
 var postcssNext = require('postcss-cssnext');
+var postcssNested = require('postcss-nested');
+var postcssVars = require('postcss-simple-vars');
 var stylelint = require('stylelint');
 
 var nodeModules = {};
@@ -74,6 +76,12 @@ var config = {
         options: {
           postcss: function () {
             return [
+              postcssNested(),
+              postcssVars({
+                variables: function () {
+                  return require('../../src/app/css-vars');
+                }
+              }),
               postcssNext(),
               postcssAssets({
                 relative: true

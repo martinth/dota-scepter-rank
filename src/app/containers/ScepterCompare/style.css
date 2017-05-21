@@ -1,11 +1,10 @@
-.SelectIndicator {
-  text-align: center;  
-}
+.compare {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
-.SelectIndicator__row {
-  margin-top: 50%;
-}
-
-.VoteCard {
-  height: 100%;
+  &__element {
+    margin: $default-padding;
+  }
 }

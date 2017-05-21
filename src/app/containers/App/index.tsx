@@ -9,10 +9,10 @@ const style = require('./style.css');
 class App extends React.Component<any, any> {
   public render() {
     return (
-      <section className={`${style.AppContainer}`}>
+      <section className={style.AppContainer}>
         <Helmet {...appConfig.app} {...appConfig.app.head} />
         <Header />
-        <section className="container">
+        <section>
           {this.props.children}
         </section>
       </section>

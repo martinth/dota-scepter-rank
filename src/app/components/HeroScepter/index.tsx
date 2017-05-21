@@ -14,13 +14,19 @@ class HeroScepter extends React.Component<IProps, void> {
     const { scepter, onClick, className } = this.props;
 
     return (
-      <div className={`card ${style.HeroScepter} ${className}`} onClick={onClick}>
-        <img className="card-img-top" src={require(`./hero-images/${scepter.id}.png`)} alt={scepter.heroName} />
-        <div className="card-block">
-          <h4 className="card-title">{scepter.heroName}</h4>
-          <ul>
-            {scepter.details.map((detail, idx) => <li key={idx}>{detail}</li>)}
-          </ul>
+      <div className={`${style.card} ${className}`} onClick={onClick}>
+        <div className={style.card__header}>
+          {scepter.heroName}
+        </div>
+        <div className={style.card__content}>
+          <div className={style.card__image}>
+            <img src={require(`./hero-images/${scepter.id}.png`)} alt={scepter.heroName} />
+          </div>
+          <div className={style.card__text}>
+            <ul>
+              {scepter.details.map((detail, idx) => <li key={idx}>{detail}</li>)}
+            </ul>
+          </div>
         </div>
       </div>
     );

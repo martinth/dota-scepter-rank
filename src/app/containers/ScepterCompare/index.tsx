@@ -37,19 +37,14 @@ class ScepterCompare extends React.Component<IProps, any> {
 
     return (
       <div>
-        <div className="row align-items-center hidden-sm-up">
-          <div className="col-sm-12">Select which one is better</div>
-        </div>
-        <div className={`row`}>
-          <HeroScepter className={`${style.VoteCard} col-sm-5`}
+        <header>
+          <h2>Select which one is better</h2>
+        </header>
+        <div className={style.compare}>
+          <HeroScepter className={style.compare__element}
             scepter={compare.scepterA}
             onClick={vote.bind(null, compare.scepterA.id, compare.scepterB.id)} />
-          <div className={`${style.SelectIndicator} col-sm-2 hidden-xs-down`}>
-            <div className={`${style.SelectIndicator__row} row align-items-center`}>
-              <div className="col">Select which one is better</div>
-            </div>
-          </div>
-          <HeroScepter className={`${style.VoteCard} col-sm-5`}
+          <HeroScepter className={style.compare__element}
             scepter={compare.scepterB}
             onClick={vote.bind(null, compare.scepterB.id, compare.scepterA.id)} />
         </div>

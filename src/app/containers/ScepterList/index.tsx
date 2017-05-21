@@ -18,13 +18,15 @@ class ScepterList extends React.Component<IProps, any> {
     const { scepters } = this.props;
 
     const list = Object.keys(scepters).map((id: string) => {
-      return <HeroScepter key={id} scepter={scepters[id]} />;
+      return <HeroScepter className={style.list__element} key={id} scepter={scepters[id]} />;
     });
 
     return (
-      <div className={style.ScepterList}>
-        <h4>Hero List</h4>
-        <div className={style.ListWrapper}>
+      <div>
+        <header>
+          <h2>Hero List</h2>
+        </header>
+        <div className={style.list}>
           {list}
         </div>
       </div>

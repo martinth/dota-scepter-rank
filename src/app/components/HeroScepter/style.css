@@ -1,10 +1,34 @@
-.HeroScepter {
-  max-width: 18rem;
-  height: 100%;
+.card {
+  background-color: $bg-dark;
+  border: 0.075em solid $border-light;
+  border-collapse: collapse;
+  
+  width: 18em;
+  min-height: 5em;
+  
+  &__header {
+    background: linear-gradient(90deg, $gradient-a-start, $gradient-a-end);
 
-  margin-left: auto;
-  margin-right: auto;
-}
-.HeroScepter ul {
-  padding-left: 1.25rem;
+    font-weight: 700;
+    font-size: 1.2em;
+    
+    padding: $default-padding $default-padding;
+  }
+  
+  &__content {
+    color: $font-light;
+    font-weight: 500;
+    padding: 0.4em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &__text {
+    
+  }
+  
+  &__image {
+    text-align: center;
+    padding: $default-padding 0;
+  }
 }

@@ -3,6 +3,8 @@ var path = require('path');
 var webpack = require('webpack');
 var postcssAssets = require('postcss-assets');
 var postcssNext = require('postcss-cssnext');
+var postcssNested = require('postcss-nested');
+var postcssVars = require('postcss-simple-vars');
 var stylelint = require('stylelint');
 var ManifestPlugin = require('webpack-manifest-plugin');
 var CheckerPlugin = require('awesome-typescript-loader').CheckerPlugin;
@@ -98,6 +100,12 @@ var config = {
           return [
             stylelint({
               files: '../../src/app/*.css'
+            }),
+            postcssNested(),
+            postcssVars({
+              variables: function () {
+                return require('../../src/app/css-vars');
+              }
             }),
             postcssNext(),
             postcssAssets({
